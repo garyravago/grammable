@@ -9,7 +9,11 @@ class GramsController < ApplicationController
 
   def create
     @gram = Gram.create(gram_params)
-    redirect_to root_url
+    if @gram.valid?
+      redirect_to root_url
+    else
+      render :new, status: :unprocessable_entity
+    end
   end
 
   private
