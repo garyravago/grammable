@@ -60,3 +60,5 @@ end
 gem 'bootstrap', '~> 4.0.0.beta'
 
 gem 'jquery-rails'
+
+gem 'simple_form'
