@@ -73,3 +73,18 @@ input {
   color: white;
   margin-top: 10px;
 }
+
+.input.boolean {
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.input.boolean label {
+  margin-top: 5px;
+  line-height: 44px;
+}
+
+abbr { 
+  border-bottom: none !important;
+  text-decoration: none !important;
+} 
