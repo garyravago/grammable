@@ -87,4 +87,33 @@ input {
 abbr { 
   border-bottom: none !important;
   text-decoration: none !important;
-} 
+}
+
+.gram-actions {
+  padding-left: 20px
+}
+
+.gram-actions a {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.comments {
+  padding: 20px;
+}
+
+.comments h4 {
+  padding-top: 20px;
+}
+
+.comment {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.comment_handle {
+  color: #125688;
+  font-weight: bold;
+  font-size: 18px;
+}
