@@ -17,7 +17,7 @@ This app is viewable [here](https://grammable-gary-ravago.herokuapp.com/)
 ## Navigate to the Rails application
 
 ```
-$ cd /flixter
+$ cd /grammable
 ```
 
 ## Set configuration files
